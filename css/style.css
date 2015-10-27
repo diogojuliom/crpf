@@ -127,6 +127,9 @@
   .nav-side-menu{
   	height: auto;
   }
+  button{
+    width: 80% !important;
+  }
 }
 @media (min-width: 767px) {
   .nav-side-menu .menu-list .menu-content {
@@ -141,6 +144,7 @@ body {
 /*S I T E*/
 #corpom{
 	margin-left: 300px;
+  padding: 15px;
 }
 #cadastro{
 	display: none;
@@ -156,4 +160,94 @@ body {
 }
 #corpo img{
 	margin-bottom: 30px;
+}
+h1.title{
+  font-family: 'Muli',sans-serif;
+  font-size: 25px;
+  text-align: center;
+  color: #0F2E5A;
+  margin-top: 10px;
+  line-height: 50px;
+}
+p.aniversariante{
+  font-family: 'Muli',sans-serif;
+  font-size: 14px;
+  text-align: center;
+  line-height: 15px;
+  margin-bottom: 20px;
+}
+p.aniversariante strong{
+  display: block;
+}
+/*aniversariantes do mes*/
+button {
+  margin: 20px 0;
+  line-height: 34px;
+  position: relative;
+  cursor: normal !important;
+  user-select: none;
+  outline:none !important;
+  width:30%;
+  display: block !important;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+button:active {
+  outline:none;
+}
+
+button.ribbon {  
+  outline:none;
+  outline-color: transparent;
+}
+button.ribbon:before, button.ribbon:after {
+  top: 5px;
+  z-index: -10;
+}
+button.ribbon:before {
+  border-color: #53dab6 #53dab6 #53dab6 transparent;
+  left: -25px;
+  border-width: 17px;
+}
+button.ribbon:after {
+  border-color: #53dab6 transparent #53dab6 #53dab6;
+  right: -25px;
+  border-width: 17px;
+}
+
+button:before, button:after {
+  content: '';
+  position: absolute;
+  height: 0;
+  width: 0;
+  border-style: solid;
+  border-width: 0;
+  outline:none;
+}
+button.btn-info:before {
+  border-color: #269abc #269abc #269abc transparent;
+}
+button.btn-info:after {
+  border-color: #269abc transparent #269abc #269abc;
+}
+div.comunicados p{
+  font-family: 'Muli',sans-serif;
+  font-size: 14px;
+  text-align: justify;
+}
+div.comunicados span{
+  font-size: 14px;
+}
+div.comunicados h2{
+  font-family: 'Muli',sans-serif;
+  font-size: 20px;
+  text-align: left;
+  color: #0F2E5A;
+  margin-top: 10px;
+  margin-bottom: 0px;
+  font-weight: bolder;
+}
+div.comunicados{
+  margin-bottom: 30px;
 }
