@@ -322,3 +322,13 @@ div.followup{
   padding-bottom: 15px;
   border-bottom: 1px solid;
 }
+p{
+  font-family: 'Muli',sans-serif;
+  font-size: 15px;
+}
+.form-horizontal .control-label{
+  text-align: left;
+}
+.btn-ouvidoria{
+  margin-left: 15px;
+}
