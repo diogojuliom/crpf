@@ -384,3 +384,7 @@ h2.time{
 div.time p{
   text-align: justify;
 }
+a.list-group-item{
+  font-family: 'Muli',sans-serif;
+  font-size: 15px;
+}
