@@ -332,3 +332,41 @@ p{
 .btn-ouvidoria{
   margin-left: 15px;
 }
+div.ranking p{
+  font-size: 23px;
+  text-align: center;
+}
+div.ranking img{
+  margin-bottom: 20px;
+}
+div.ranking p.title{
+  color: #0C96CD;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+div.ranking p.ranking{
+  background: #0C96CD;
+  color: #FFF;
+  border-radius: 5px;
+  text-transform: uppercase;
+  line-height: 37px;
+  margin-bottom: 15px;
+}
+.mesref{
+  padding-bottom: 20px;
+  border-bottom: 1px solid #0C96CD;
+  margin-bottom: 20px;
+}
+div.vif p.title{
+  color: #4B4F58;
+}
+div.vif p.ranking{
+  background: #4B4F58;
+  color: #D0DC4C;
+}
+div.vif .mesref{
+  border-bottom: 1px solid #D0DC4C;
+} 
+a.vif{
+  margin-bottom: 20px;
+}
