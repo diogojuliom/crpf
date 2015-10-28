@@ -370,3 +370,17 @@ div.vif .mesref{
 a.vif{
   margin-bottom: 20px;
 }
+ol li, ul li{
+  font-family: 'Muli',sans-serif;
+  font-size: 15px;
+}
+h2.time{
+  font-family: 'Muli',sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #773759;
+}
+div.time p{
+  text-align: justify;
+}
