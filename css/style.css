@@ -67,7 +67,7 @@
 .nav-side-menu ul .sub-menu li:before,
 .nav-side-menu li .sub-menu li:before {
   font-family: FontAwesome;
-  content: "\f105";
+  /*content: "\f105";*/
   display: inline-block;
   padding-left: 10px;
   padding-right: 10px;
@@ -81,6 +81,7 @@
 .nav-side-menu li a {
   text-decoration: none;
   color: #e1ffff;
+  display: block;
 }
 .nav-side-menu li a i {
   padding-left: 10px;
@@ -136,10 +137,22 @@
   div.news p{
     text-align: center !important; 
   }
+  div.dadosfollow{
+    padding-bottom: 15px;
+    border-bottom: 1px solid;
+    margin-bottom: 15px;
+  }
+  .radio-inline{
+    display: block;
+    margin-left: 0px !important;
+  }
 }
 @media (min-width: 767px) {
   .nav-side-menu .menu-list .menu-content {
     display: block;
+  }
+  div.dadosfollow{
+    margin-bottom: 30px;
   }
 }
 @media (min-width:768px) and (max-width:991px){
@@ -148,6 +161,11 @@
   }
   div.news p{
     text-align: center !important;
+  }
+  div.dadosfollow{
+    padding-bottom: 15px;
+    border-bottom: 1px solid;
+    margin-bottom: 15px;
   }
 }
 body {
@@ -296,4 +314,11 @@ li.list-group-item{
   font-family: 'Muli',sans-serif;
   font-size: 14px;
   text-align: justify;
+}
+label.followup{
+  display: block;
+}
+div.followup{
+  padding-bottom: 15px;
+  border-bottom: 1px solid;
 }
